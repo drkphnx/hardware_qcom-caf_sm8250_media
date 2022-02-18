@@ -23,7 +23,7 @@ MM_VIDEO += init.qti.media.sh
 
 PRODUCT_PACKAGES += $(MM_VIDEO)
 
-include hardware/qcom/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
+include hardware/qcom-caf/sm8250/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
 
 endif
 
